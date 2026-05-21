@@ -1,9 +1,0 @@
-{
-  "name": "tanstack",
-  "description": "Module Federation Vite + TanStack Start with full SSR support",
-  "scripts": {
-    "dev": "pnpm --filter tanstack-shared build && pnpm --filter tanstack-* dev",
-    "build": "pnpm --filter tanstack-* build",
-    "preview": "pnpm --filter tanstack-* preview"
-  }
-}
