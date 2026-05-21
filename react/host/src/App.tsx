@@ -43,7 +43,7 @@ export default () => {
       </div>
 
       <Suspense fallback="loading...">
-        <Remote />
+        {/* <Remote /> */}
       </Suspense>
     </>
   );

@@ -13,6 +13,7 @@ export default defineConfig(() => ({
       dts: true,
       dev: { disableDynamicRemoteTypeHints: true, remoteHmr: true },
       name: "host",
+      shareStrategy: 'loaded-first',
       remotes: {
         remote: {
           type: "module",
